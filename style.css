@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(img/bg2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.left img{
+    width: 94px;
+}
+.left div{
+    text-align: center;
+    line-height: 12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.mid{
+    display: block;
+    width: 43%;
+    margin: 36px auto;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 36px;
+}
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: pink;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+    padding: 10px 28px;
+}
+.navbar li a.active{
+    color: black;
+    background-color: rgba(185, 181, 181, 0.534);
+    border-radius: 25px;
+}
+.navbar li a:hover{
+    color: pink;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.container{
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 460px;
+    padding: 4px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.container button{
+    display: block;
+    width: 95%;
+    margin: 20px auto;
+}
